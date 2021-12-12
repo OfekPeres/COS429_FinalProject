@@ -19,7 +19,7 @@ Requirements:
 
 - Python 3 (code has been tested on Python 3.8.2)
 - PyTorch (code tested with 1.5)
-- CUDA and cuDNN (tested with Cuda 10): *No longer true, removed need for GPU and will run on macbooks*
+- CUDA and cuDNN (tested with Cuda 10): *No longer true, removed need for GPU and will run on cpus*
 - Python packages (not exhaustive): opencv-python (tested with 4.2), tqdm, cffi, h5py, scipy (tested with 1.4.1), pytz, imageio
 
 Structure:
