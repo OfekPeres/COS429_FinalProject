@@ -1,5 +1,11 @@
-# Stacked Hourglass Networks in Pytorch
+# COS 429 Ofek and Divi Final Project Using the Stacked Hourglass Networks in Pytorch
 
+
+## Additions to allow for analysis of Atlas Images from Boston Dynamics
+- visualize.py: visualizes any image with both the labeled keypoints as well as the predicted keypoints that are outputted from the network
+- watch_video.py: a script to download frames from a youtube video 
+- annotate_video.py: a script to go through the frames of a video (downloaded with the watch_video.py script) and query the user for the 17 required labels for each image. Left click for visible joints, right click for occluded joints.
+- test.py: a modified testing script to allow input images other than the MPII dataset.
 Based on **Stacked Hourglass Networks for Human Pose Estimation.** [Alejandro Newell](https://www.alejandronewell.com/), [Kaiyu Yang](https://www.cs.princeton.edu/~kaiyuy/), and [Jia Deng](https://www.cs.princeton.edu/~jiadeng/). *European Conference on Computer Vision (ECCV)*, 2016. [Github](https://github.com/princeton-vl/pose-hg-train)
 
 PyTorch code by [Chris Rockwell](https://crockwell.github.io/); adopted from: **Associative Embedding: End-to-end Learning for Joint Detection and Grouping.**
@@ -13,7 +19,7 @@ Requirements:
 
 - Python 3 (code has been tested on Python 3.8.2)
 - PyTorch (code tested with 1.5)
-- CUDA and cuDNN (tested with Cuda 10)
+- CUDA and cuDNN (tested with Cuda 10): *No longer true, removed need for GPU and will run on macbooks*
 - Python packages (not exhaustive): opencv-python (tested with 4.2), tqdm, cffi, h5py, scipy (tested with 1.4.1), pytz, imageio
 
 Structure:

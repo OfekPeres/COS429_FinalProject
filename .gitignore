@@ -11,3 +11,6 @@ _ext
 tmp
 *.o*
 *~
+*.xlsx
+.DS_Store
+*.mp4
